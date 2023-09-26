@@ -5,7 +5,7 @@
     "framework": "FLASK"
     },
 "client": {
-    "client_id": "",
+    "client_id": "4a19d39c-42b4-4386-a85f-6ec3a10f9b60",
     "client_credential": "",
     "authority": "https://login.microsoftonline.com/76b1f6a0-bdb4-4d58-97a9-74b53cbc54a5"
     },
