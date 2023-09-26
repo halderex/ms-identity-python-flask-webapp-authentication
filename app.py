@@ -74,4 +74,4 @@ if __name__ == '__main__':
     app=create_app() # this is for running flask's dev server for local testing purposes ONLY
     app.run(ssl_context='adhoc') # create an adhoc ssl cert for HTTPS on 127.0.0.1
 
-app = create_app(secure_client_credential=os.environ.get("CLIENT_SECRET"))
+app = create_app(secure_client_credential=os.environ['CLIENT_SECRET"'])
