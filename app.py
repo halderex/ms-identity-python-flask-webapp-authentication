@@ -7,6 +7,7 @@ from ms_identity_web import IdentityWebPython
 from ms_identity_web.adapters import FlaskContextAdapter
 from ms_identity_web.errors import NotAuthenticatedError
 from ms_identity_web.configuration import AADConfig
+import os
 
 """
 Instructions for running the sample app. These are dev environment instructions ONLY.
